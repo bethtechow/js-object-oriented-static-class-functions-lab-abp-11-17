@@ -1,7 +1,7 @@
 'use strict';
 class Question {
-  constructor(){
-    this. =
+  constructor(question){
+    this.question=question;
   }
   save(){
     this.constructor._All.push(this)
