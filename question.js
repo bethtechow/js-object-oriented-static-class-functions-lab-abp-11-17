@@ -1,9 +1,9 @@
 'use strict';
 class Question {
-  constructor(question){
-    this.question=question;
+  constructor(){
+    this.save;
   }
-  
+
   save(){
     this.constructor._All.push(this)
   }
@@ -13,3 +13,5 @@ class Question {
   }
 }
 Question._All = []
+
+Question.All()
