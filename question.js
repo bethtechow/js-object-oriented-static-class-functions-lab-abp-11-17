@@ -5,7 +5,7 @@ class Question {
   }
 
   save(){
-    this.constructor._All.push(this)
+    this.constructor._All
   }
   static All() {
     return this._All
@@ -13,5 +13,3 @@ class Question {
   }
 }
 Question._All = []
-
-
