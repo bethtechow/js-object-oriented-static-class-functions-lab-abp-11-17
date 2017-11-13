@@ -1,7 +1,7 @@
 'use strict';
 class Question {
-  constructor(){
-    this.save
+  constructor(content){
+    this.content = content
   }
 
   save(){
@@ -14,4 +14,4 @@ class Question {
 }
 Question._All = []
 
-Question.All()
+
