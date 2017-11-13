@@ -3,6 +3,7 @@ class Question {
   constructor(question){
     this.question=question;
   }
+  
   save(){
     this.constructor._All.push(this)
   }
@@ -11,3 +12,4 @@ class Question {
   }
   }
 }
+Question._All = []
